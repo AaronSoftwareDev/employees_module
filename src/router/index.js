@@ -18,12 +18,50 @@ const routes = [
           import(/* webpackChunkName: "home" */ "@/views/employees.vue"),
       },
       {
-        path: "/holiday",
-        name: "Holidays",
+        path: "/adminattendance",
+        name: "AttendanceAdmin",
 
         component: () =>
-          import(/* webpackChunkName: "home" */ "@/views/Holidays.vue"),
+          import(/* webpackChunkName: "home" */ "@/views/AttendanceAdmin.vue"),
       },
+      
+      {
+        path: "/attendanceEmployee",
+        name: "AttendanceEmployee",
+
+        component: () =>
+          import(/* webpackChunkName: "home" */ "@/views/AttendanceEmployee.vue"),
+      },
+      {
+        path: "/departments",
+        name: "Departments",
+
+        component: () =>
+          import(/* webpackChunkName: "home" */ "@/views/Departments.vue"),
+      },
+      {
+        path: "/adminleave",
+        name: "LeaveDaysAdmin",
+
+        component: () =>
+          import(/* webpackChunkName: "home" */ "@/views/LeaveDaysAdmin.vue"),
+      },
+      {
+        path: "/employeeleave",
+        name: "LeaveDaysEmployees",
+
+        component: () =>
+          import(/* webpackChunkName: "home" */ "@/views/LeaveDaysEmployees.vue"),
+      },
+      {
+        path: "/schedule",
+        name: "Schedule",
+
+        component: () =>
+          import(/* webpackChunkName: "home" */ "@/views/Schedule.vue"),
+      },
+    
+     
     ],
   },
 ];

@@ -27,31 +27,37 @@
 
         <v-list-item
           prepend-icon="mdi-star"
+          to="/adminattendance"
           title="Attendance(Admin)"
           value="starred"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-star"
+          to="/attendanceEmployee"
           title="Attendance(employees)"
           value="starred"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-star"
+          to="/employeeleave"
           title="Leave Days(employees)"
           value="starred"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-star"
+          to="/adminleave"
           title="Leave Days (Admin)"
-          value="starred"
+          value="adminleave"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-star"
+          to="/departments"
           title="Departments"
           value="starred"
         ></v-list-item>
         <v-list-item
           prepend-icon="mdi-star"
+          to="/schedule"
           title="Schedule"
           value="starred"
         ></v-list-item>
